@@ -1,38 +1,70 @@
-.App {
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #fd4351;
+}
+.flexContainer{
+  width: 100%;
+  display: flex;
+  margin-left: 18rem;
+  margin-top: 6rem;
+
+  
+}
+
+.bgSection{
+  width: 25%;
+  height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+ 
+  
+}
+.formData{
+  width: 35%;
+  height: 500px;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.field{
+  width: 60%;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fieldSelect{
+  width: 65%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.radio label{
+  margin: 0 0.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.checkbox{
+margin-right: 15rem;
+margin-top: 1rem;
+}
+.checkbox input{
+  margin: 0 0 0 0.7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  background-color: green;
+  color: #fff;
+  font-size: 1.5rem; 
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  margin-right: 13rem;
 }
